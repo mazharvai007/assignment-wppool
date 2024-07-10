@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./assets/images/favicon.svg" />
+		<title>Assignment - Junior Frontend Developer</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body>
+		<!-- Start Header -->
+		<header class="header-area">
+			<div class="wrapper">
+				<div class="logo">
+					<a href="/">
+						<img
+							class="logo-white"
+							src="./assets/images/logo.svg"
+							alt="logo"
+						/>
+						<img
+							class="logo-black"
+							src="./assets/images/logo-black.svg"
+							alt="logo"
+						/>
+					</a>
+				</div>
+				<div class="header-button">
+					<div class="share">
+						<img
+							class="share-white"
+							src="./assets/images/share.svg"
+							alt="share"
+						/>
+						<img
+							class="share-black"
+							src="./assets/images/share-black.svg"
+							alt="share"
+						/>
+					</div>
+					<button type="submit">Download the 2024 Report</button>
+					<div class="hamburg-icon">
+						<img
+							class="hamburg-icon-white"
+							src="./assets/images/hamburger-menu.svg"
+							alt="hamburger icon"
+						/>
+						<img
+							class="hamburg-icon-black"
+							src="./assets/images/hamburger-black.svg"
+							alt="hamburger icon"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div class="toggle-nav">
+				<div class="toggle-header">
+					<div class="share">
+						<img
+							class="share-white"
+							src="./assets/images/share.svg"
+							alt="share"
+						/>
+					</div>
+					<button type="submit">Download the 2024 Report</button>
+					<div class="hamburg-close-icon">
+						<img
+							src="./assets/images/close.svg"
+							alt="hamburger close"
+						/>
+					</div>
+				</div>
+
+				<ul class="toggle-nav-items">
+					<li><a href="#">The WPPOOL Index</a></li>
+					<li><a href="#">All Companies</a></li>
+					<li><a href="#">Potential Future Listings</a></li>
+					<li><a href="#">State of USA</a></li>
+					<li><a href="#">Stories & Ideas</a></li>
+					<li><a href="#">About WPPOOL</a></li>
+					<li><a href="#">WPPOOL Portfolio Companies</a></li>
+					<li>
+						<a href="https://wppool.dev/" target="_blank"
+							>Visit WPPOOL</a
+						>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- Start Hero -->
+		<section class="hero-area">
+			<div class="wrapper">
+				<div class="content">
+					<h1>The WPPOOL Index</h1>
+					<p>
+						Monitor the performance of emerging, publicly traded,
+						financial technology companies
+					</p>
+					<div class="object1">
+						<img
+							src="./assets/images/rectangle.svg"
+							alt="rectangle"
+						/>
+					</div>
+				</div>
+
+				<div class="company-status">
+					<div class="status-item">
+						<h3>60</h3>
+						<p>Companies</p>
+					</div>
+					<div class="status-item">
+						<h3>$100B</h3>
+						<p>Market cap</p>
+					</div>
+					<div class="status-item">
+						<h3>3.5x</h3>
+						<p>Revenue multiple</p>
+					</div>
+					<div class="status-item">
+						<h3>60%</h3>
+						<p>LTM avg. revenue growth rate</p>
+					</div>
+				</div>
+			</div>
+			<div class="gotobottom">
+				<img src="./assets/images/arrow.svg" alt="go to bottom" />
+			</div>
+		</section>
+		<!-- End Hero -->
+
+		<!-- Start Index -->
+		<section class="index-area">
+			<div class="wrapper">
+				<div class="tab-list-item">
+					<div class="tab-item active">The Index</div>
+					<div class="tab-item">The Index Tab Two</div>
+					<div class="tab-item">The Index Tab Three</div>
+					<div class="tab-item">The Index Tab Four</div>
+					<div class="tab-item">The Index Tab Five</div>
+				</div>
+				<div class="tab-list-content">
+					<div class="tab1-content tab-content">
+						<div class="section-heading">
+							<img src="./assets/images/union.svg" alt="union" />
+							<h3>The WPPOOL Index</h3>
+						</div>
+
+						<div class="index-boxes">
+							<div class="box-item">
+								<h3 class="item-number">+66.2%</h3>
+								<span class="item-title">WPPOOL Index</span>
+							</div>
+							<div class="box-item">
+								<h3 class="item-number">+26.6%</h3>
+								<span class="item-title">Google Index</span>
+							</div>
+							<div class="box-item">
+								<h3 class="item-number">+34.1%</h3>
+								<span class="item-title">Microsoft</span>
+							</div>
+							<div class="box-item">
+								<h3 class="item-number">+17%</h3>
+								<span class="item-title">Twitter Index</span>
+							</div>
+						</div>
+
+						<div class="filter-items">
+							<div class="filter-left">
+								<div class="filter-select">
+									<select
+										name="sectors"
+										id="sectors"
+										class="select"
+									>
+										<option value="sectors">Sectors</option>
+										<option value="category">
+											Category
+										</option>
+										<option value="index">Index</option>
+										<option value="list">List</option>
+									</select>
+								</div>
+								<div class="filter-select">
+									<select
+										name="types"
+										id="types"
+										class="select"
+									>
+										<option value="ipo">
+											Types of IPO
+										</option>
+										<option value="category">
+											Category
+										</option>
+										<option value="index">Index</option>
+										<option value="list">List</option>
+									</select>
+								</div>
+							</div>
+
+							<ul class="filter-group">
+								<li>1Y</li>
+								<li>YTD</li>
+								<li class="active">6M</li>
+								<li>1M</li>
+								<li>1W</li>
+							</ul>
+						</div>
+
+						<canvas id="wppool-chart"></canvas>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Index -->
+
+		<!-- Start Companies -->
+		<section class="companies-area">
+			<div class="wrapper">
+				<div class="section-heading">
+					<h3>All Companies</h3>
+					<div class="search">
+						<img src="./assets/images/search.svg" alt="search" />
+						<input type="text" placeholder="Search Companies" />
+					</div>
+				</div>
+
+				<div class="data-table">
+					<table role="table">
+						<thead role="rowgroup">
+							<tr role="row">
+								<th role="columnheader">Company</th>
+								<th role="columnheader">Ticker</th>
+								<th role="columnheader">Vertical</th>
+								<th role="columnheader">Price</th>
+								<th role="columnheader">Market Cap ($B)</th>
+								<th role="columnheader">Revenue Growth</th>
+								<th role="columnheader">Gross Margin</th>
+								<th role="columnheader">EV/Revenue</th>
+								<th role="columnheader">YTD Performance</th>
+							</tr>
+						</thead>
+						<tbody role="rowgroup">
+							<tr role="row">
+								<td role="cell">Adyen</td>
+								<td role="cell">AFRM</td>
+								<td role="cell">Payments</td>
+								<td role="cell">$17.15</td>
+								<td role="cell">$50.5</td>
+								<td role="cell">49.0%</td>
+								<td role="cell">15.8%</td>
+								<td role="cell">6.3</td>
+								<td role="cell">24.3%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Affirm</td>
+								<td role="cell">AFRM</td>
+								<td role="cell">Lending</td>
+								<td role="cell">$16.12</td>
+								<td role="cell">$4.7</td>
+								<td role="cell">32.0%</td>
+								<td role="cell">48.7%</td>
+								<td role="cell">4.9</td>
+								<td role="cell">77.1%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Alkami Technology</td>
+								<td role="cell">ALKT</td>
+								<td role="cell">B2B SaaS</td>
+								<td role="cell">$16.27</td>
+								<td role="cell">$1.5</td>
+								<td role="cell">34.0%</td>
+								<td role="cell">53.0%</td>
+								<td role="cell">7.0</td>
+								<td role="cell">10.0%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">AvidXchange</td>
+								<td role="cell">AVDX</td>
+								<td role="cell">Payments</td>
+								<td role="cell">$10.21</td>
+								<td role="cell">$2.0</td>
+								<td role="cell">27.0%</td>
+								<td role="cell">61.5%</td>
+								<td role="cell">6.0</td>
+								<td role="cell">10.5%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Bakkt Holdings</td>
+								<td role="cell">BKKT</td>
+								<td role="cell">Wealth</td>
+								<td role="cell">$1.32</td>
+								<td role="cell">$0.1</td>
+								<td role="cell">38%</td>
+								<td role="cell">--</td>
+								<td role="cell">0.4</td>
+								<td role="cell">13.8%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Virtu Financial Inc</td>
+								<td role="cell">VIRT</td>
+								<td role="cell">Wealth</td>
+								<td role="cell">$17.0</td>
+								<td role="cell">$3.1</td>
+								<td role="cell">-22.0%</td>
+								<td role="cell">38.2%</td>
+								<td role="cell">2.6</td>
+								<td role="cell">-17.8%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Adyen</td>
+								<td role="cell">AFRM</td>
+								<td role="cell">Payments</td>
+								<td role="cell">$17.15</td>
+								<td role="cell">$50.5</td>
+								<td role="cell">49.0%</td>
+								<td role="cell">15.8%</td>
+								<td role="cell">6.3</td>
+								<td role="cell">24.3%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Affirm</td>
+								<td role="cell">AFRM</td>
+								<td role="cell">Lending</td>
+								<td role="cell">$16.12</td>
+								<td role="cell">$4.7</td>
+								<td role="cell">32.0%</td>
+								<td role="cell">48.7%</td>
+								<td role="cell">4.9</td>
+								<td role="cell">77.1%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">Alkami Technology</td>
+								<td role="cell">ALKT</td>
+								<td role="cell">B2B SaaS</td>
+								<td role="cell">$16.27</td>
+								<td role="cell">$1.5</td>
+								<td role="cell">34.0%</td>
+								<td role="cell">53.0%</td>
+								<td role="cell">7.0</td>
+								<td role="cell">10.0%</td>
+							</tr>
+							<tr role="row">
+								<td role="cell">AvidXchange</td>
+								<td role="cell">AVDX</td>
+								<td role="cell">Payments</td>
+								<td role="cell">$10.21</td>
+								<td role="cell">$2.0</td>
+								<td role="cell">27.0%</td>
+								<td role="cell">61.5%</td>
+								<td role="cell">6.0</td>
+								<td role="cell">10.5%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="button-group">
+				<button type="submit">Download ‘All Companies’ Data</button>
+				<button type="submit">View Methodology</button>
+			</div>
+		</section>
+		<!-- End Companies -->
+
+		<!-- Start Future Listing -->
+		<section class="future-listing-area">
+			<div class="wrapper">
+				<div class="section-heading">
+					<h3>All Companies</h3>
+					<p>
+						Porem ipsum dolor sit amet, consectetur adipiscing elit.
+						Nunc vulputate libero et velit interdum, ac aliquet odio
+						mattis. Class aptent taciti sociosqu ad litora torquent
+						per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+
+				<div class="future-listing">
+					<span class="list-name">
+						<img src="./assets/images/stripe.svg" alt="stripe" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/klarna.svg" alt="klarna" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/plaid.svg" alt="plaid" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/checkout.svg"
+							alt="checkout"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/revolut.svg" alt="revolut" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/chime.svg" alt="chime" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/n26.svg" alt="n26" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/brex.svg" alt="brex" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/deel.svg" alt="deel" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/gusto.svg" alt="gusto" />
+					</span>
+				</div>
+			</div>
+		</section>
+		<!-- End Future Listing -->
+
+		<!-- Start Carousel Slider -->
+		<section class="carousel-slider-area">
+			<div class="wrapper">
+				<div class="section-heading">
+					<h3>State of USA</h3>
+					<div class="year-select">
+						<select name="years" id="years" class="years">
+							<option value="2024">2024</option>
+							<option value="2023">2023</option>
+							<option value="2022">2022</option>
+							<option value="2021">2021</option>
+						</select>
+					</div>
+					<p>
+						Click through the slides or download the report to view
+						natively on your device.
+					</p>
+				</div>
+			</div>
+
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./assets/images/slider1.png" alt="slider1" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/images/slider2.png" alt="slider2" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/images/slider1.png" alt="slider1" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/images/slider2.png" alt="slider2" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/images/slider1.png" alt="slider1" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/images/slider2.png" alt="slider2" />
+					</div>
+				</div>
+
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<button type="submit">Download the 2023 Report</button>
+		</section>
+		<!-- Start Carousel Slider -->
+
+		<!-- Start Storage Area-->
+		<section class="stories-area">
+			<div class="wrapper">
+				<div class="section-heading">
+					<h3>Stories & Ideas</h3>
+					<p>The latest news and updates</p>
+				</div>
+
+				<div class="stories-list">
+					<div class="story">
+						<img src="./assets/images/person1.svg" alt="person 1" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+					<div class="story">
+						<img src="./assets/images/person2.svg" alt="person 2" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+					<div class="story">
+						<img src="./assets/images/person1.svg" alt="person 1" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+					<div class="story">
+						<img src="./assets/images/person1.svg" alt="person 1" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+					<div class="story">
+						<img src="./assets/images/person2.svg" alt="person 2" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+					<div class="story">
+						<img src="./assets/images/person1.svg" alt="person 1" />
+						<div class="story-content">
+							<h4 class="title">By: Sahabuddin Sagor</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Maxime mollitia.
+							</p>
+							<button>Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Storage Area-->
+
+		<!-- Start About Area -->
+		<section class="about-area">
+			<hr />
+			<div class="wrapper">
+				<div class="about-content">
+					<h2>About WPPOOL</h2>
+					<h3>Investing in wppool for over 50 years</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum! Provident similique
+						accusantium nemo autem.
+					</p>
+					<button type="submit">Contact WPPOOL</button>
+				</div>
+			</div>
+			<hr />
+		</section>
+		<!-- End About Area -->
+
+		<!-- Start Companies Portfolio -->
+		<section class="companies-portfolio-area">
+			<div class="wrapper">
+				<div class="section-heading">
+					<h3>Selected WPPOOL Portfolio Companies</h3>
+				</div>
+
+				<div class="companies-list">
+					<span class="list-name">
+						<img src="./assets/images/alibaba.png" alt="alibaba" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/vendr.png" alt="vendr" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/vest-well.png"
+							alt="vest-well"
+						/>
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/snap-docs.png"
+							alt="snap-docs"
+						/>
+					</span>
+
+					<span class="list-name">
+						<img src="./assets/images/toast.png" alt="toast" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/connex-pay.png"
+							alt="connex-pay"
+						/>
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/mineraltree.png"
+							alt="mineraltree"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/flywire.png" alt="flywire" />
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/quovo.png" alt="quovo" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/spendesk.png"
+							alt="spendesk"
+						/>
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/nota-bean.png"
+							alt="nota-bean"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/recurly.png" alt="recurly" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/fire-blocks.png"
+							alt="fire-blocks"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/kensho.png" alt="kensho" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/future-advisor.png"
+							alt="future-advisor"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/argyle.png" alt="argyle" />
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/snap-sheet.png"
+							alt="snap-sheet"
+						/>
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/connex-pay.png"
+							alt="connex-pay"
+						/>
+					</span>
+					<span class="list-name">
+						<img
+							src="./assets/images/snap-docs.png"
+							alt="snap-docs"
+						/>
+					</span>
+					<span class="list-name">
+						<img src="./assets/images/flywire.png" alt="flywire" />
+					</span>
+				</div>
+			</div>
+		</section>
+		<!-- End Companies Portfolio -->
+
+		<!-- Start Footer Area -->
+		<footer class="footer-area">
+			<div class="wrapper">
+				<div class="footer-top">
+					<div class="foo-top-left">
+						<h3>
+							Experience remarkable WordPress products with a new
+							level of power, beauty, and human-centered designs.
+						</h3>
+					</div>
+					<div class="foo-top-middle">
+						<span class="title">Jump to</span>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Stories</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Services</a></li>
+						</ul>
+					</div>
+					<div class="foo-top-right">
+						<div class="address-box">
+							<span class="name">Cambridge</span>
+							<p class="address">
+								70728 Yost Burg, North Magdaleneview, UT
+								97952-2814
+							</p>
+						</div>
+						<div class="address-box">
+							<span class="name">London</span>
+							<p class="address">
+								Suite 292 903 Stehr Streets, Langworthtown, SC
+								94577-9465
+							</p>
+						</div>
+						<div class="address-box">
+							<span class="name">San Francisco</span>
+							<p class="address">
+								19837 Gilberto Lodge, Lake Kendallville,
+								Colorado - 97392, Bhutan
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="foo-bottom-left">
+						<div class="copyright">
+							<a href="#">©2024</a>
+							<a href="#">Terms of Use</a>
+							<a href="#">Privacy Policy</a>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Maxime mollitia, molestiae quas vel sint
+							commodi repudiandae consequuntur voluptatum laborum
+							numquam blanditiis harum quisquam eius sed odit
+							fugiat iusto fuga praesentium optio, eaque rerum!
+							Provident similique accusantium nemo autem.
+							Veritatis obcaecati tenetur iure eius earum ut
+							molestias architecto voluptate aliquam nihil,
+							eveniet aliquid culpa officia aut! Impedit sit sunt
+							quaera
+						</p>
+					</div>
+					<div class="foo-bottom-right">
+						<a href="#">
+							<img
+								src="./assets/images/linkedin.svg"
+								alt="linkedin"
+							/>
+						</a>
+						<a href="#">
+							<img
+								src="./assets/images/twitter.svg"
+								alt="twitter"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
